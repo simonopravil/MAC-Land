@@ -29,7 +29,7 @@ def initialize_earth_engine():
 # initialize_earth_engine()
 
 # ------------------------- Data Retrieval Functions -------------------------
-def get_data(aoi_name: str, return_as_list: bool = False) -> ee.Image or list:
+def Harmonize_data(aoi_name: str, return_as_list: bool = False) -> ee.Image or list:
     """
     Retrieves land cover data for a specified area of interest (AOI).
 
